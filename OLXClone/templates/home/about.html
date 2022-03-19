@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block title %} About{% endblock title %}
+
+{% block body %}
+    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<body>
+    <div class="about-section bg-dark">
+        <h1>About Us</h1>
+        <p>“Websites promote you 24/7: No employee will do that.”</p>
+    </div>
+
+    <h2 style="text-align:center"></h2>
+    <div class="row py-4">
+
+        <div class="column">
+            <div class="card">
+                <hr>
+                <img src="https://scontent.famd15-1.fna.fbcdn.net/v/t39.30808-6/241515441_591769241995174_6413423317050137172_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QtI40x8QOiAAX9vffFL&_nc_ht=scontent.famd15-1.fna&oh=00_AT_jWEvxDH_u-IqwSGd0Tlg6dKT5imtkPz0Be8fBtiCqRQ&oe=623A5EA5"
+                    alt="Jaivin Domadiya" style="width:100%">
+                <div class="container">
+                    <hr>
+                    <h3>Jaivin Domadiya</h3>
+                    <p class="title">BCA Student</p>
+                    <p class="position">Pursuing BCA
+                    </p>
+                    <p class="mail"><i class="fa">&#xf0e0&nbsp</i> jaivindomadiya@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+                <hr>
+                <img src="https://scontent.famd15-1.fna.fbcdn.net/v/t1.6435-9/107420254_1144940595870693_6464825597283087676_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=S4QMZ6wg7WUAX8YvatR&_nc_ht=scontent.famd15-1.fna&oh=00_AT_23mcShiqcFhn4R2sqKanaYF1ibBGlD6QJ4CyRrh30XQ&oe=625A8D03"
+                    alt="Sujil Ponkiya" style="width:100%">
+                <div class="container">
+                    <hr>
+                    <h3>Sujil Ponkiya</h3>
+                    <p class="title">BCA Student</p>
+                    <p class="position">Pursuing BCA
+                    </p>
+                    <p class="mail"><i class="fa">&#xf0e0&nbsp</i> sujilponkiya21@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        margin-bottom: 15px;
+        margin-left: 15vw;
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .card {
+        opacity: 0.9;
+    }
+
+    .about-section {
+        padding: 10px;
+        text-align: center;
+        /* background-color: #181313; */
+        color: white;
+        opacity: 0.7;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .title {
+        color: #555;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    .position {
+        color: grey;
+    }
+
+    .mail {
+        color: #555;
+    }
+</style>
+{% endblock %}
